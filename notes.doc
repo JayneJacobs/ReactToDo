@@ -1,0 +1,60 @@
+node -v
+ 445  node -v
+ 446  npm -v
+ 447  nodejs -v
+ 448  npm init
+ 449  npm install
+ node sesrver.js
+   452  node -v
+   453  update
+   454  node server.js
+   mkdir HelloReact
+     466  cd HelloReact/
+     467  npm init
+     468  npm install express@4 --save
+     469  npm install
+     470  ls
+     471  node server.js
+     472  node server.js
+     473  ls -a
+     474  cp desktop.ini $pwd/HelloReact
+     475  cp desktop.ini $pwd/HelloReact/
+     476  cp desktop.ini $pwd/HelloReact/desktop.ini
+     477  cp desktop.ini /c/LocalDocs
+     479  ls
+     480  cd HelloReact/
+     481  node server.js
+     npm install webpack -g
+       507  webpack -h
+       508  npm install --save react@0.14.7 react-dom@0.14.7
+       webpack -w
+       npm install react-router@2.0.0  --save
+
+
+       APIs
+       http://api.openweathermap.org/data/2.5/weather?q=London&units=imperial&appid=f7774fc0145cbcc291a7c995c9c8849e
+       https://home.openweathermap.org/api_keys
+
+
+
+       GIT
+       Initialized empty Git repository in C:/LocalDocuments/Programming/projects/ReactWeather/.git/
+       534  git add .gitignore
+        535  git status
+        536  git add .
+        git commit -a  -m 'message'
+        git remote add origin https://github.com/JayneJacobs/ReactWeather.git
+  150  git remote -v
+  151  git push -u origin master
+  152  git status
+  153  history | grep git
+  154  git status
+  155   git commit -a -m 'Added copy'
+  156  git push
+
+
+Heroku notes
+heroku create
+git remote -v
+git push heroku master
+heroku open

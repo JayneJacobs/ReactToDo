@@ -1,0 +1,26 @@
+console.log('Starting Tests');
+function add(a,b){
+  return a+b;
+}
+expect(add(3,5)).toBe(8);
+expect(add(-3,2)).toBeA('number');
+
+function captitalizedWord(word){
+  if (!word || typeof word!=='string'){
+    word = '';
+  }
+  return word.charAt(0).toUpperCase( ) + word.slice(1);
+}
+
+//Give Andrew expect Andrew
+expect(captitalizedWord('andrew')).toBe('Andrew');
+
+//Given andrew expect type to be a string
+expect(captitalizedWord('andrew')).toBeA('string');
+
+//Given nothing expect ''
+expect(captitalizedWord()).toBe('');
+
+
+
+console.log('All tests have passed!');
