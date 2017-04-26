@@ -85,6 +85,14 @@ node -v
    497  git push heroku master
    498  heroku open
 
+New from boiler Plate
+git clone https://github.com/JayneJacobs/ReactBoilerPlate.git
+ 515  git remote -v
+ 516  git remote rm origin
+ 517  git remote add origin https://github.com/JayneJacobs/ReactToDo.git
+ 518  git push -u origin master
+ 519  history | grep git
+
 
 
   TESTING
