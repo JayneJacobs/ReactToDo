@@ -7,7 +7,7 @@ var Navigation = () => {
       <div className="top-bar-left">
         <ul className="menu">
           <li className="menu-text">
-            React Timer App
+            Todo App
           </li>
           <li>
             <IndexLink to="/" activeClassName="active-link">ToDo App</IndexLink>

@@ -1,6 +1,6 @@
 
 
-@import "base/variables";
+@import "base/variables/";
 
 
 //foundation
@@ -9,3 +9,4 @@
 @include foundation-everything;
 //components
 @import "components/navigation";
+@import "components/page-title";
