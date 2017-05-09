@@ -13,7 +13,7 @@ describe('TodoList', () => {
     expect(TodoList).toExist();
   });
   it('should render one Todo component for each todo item', () => {
-      var tools [{
+      var tools = [{
         id:1,
         text: 'Do something'
 

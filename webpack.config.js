@@ -6,6 +6,7 @@ module.exports = {
     'script!jquery/dist/jquery.min.js',
     'script!foundation-sites/dist/foundation.min.js',
     './app/app.jsx'
+
   ],
   externals: {
     jquery: 'jQuery'
@@ -24,7 +25,8 @@ module.exports = {
     root: __dirname,
     modulesDirectories: [
       'node_modules',
-      './app/components'
+      './app/components',
+      './app/api'
     ],
     alias: {
       applicationStyles: 'app/styles/app.scss'
