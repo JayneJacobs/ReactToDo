@@ -5,7 +5,7 @@ var TodoList = require('TodoList');
 var AddTodo = require('AddTodo');
 var TodoSearch = require('TodoSearch');
 var TodoAPI = require('TodoAPI');
-
+var moment = require('moment');
 
 
 var TodoApp = React.createClass({
@@ -39,7 +39,8 @@ var TodoApp = React.createClass({
         {
           id: uuid(),
           text: text,
-          completed: false
+          completed: false,
+          createdAt: moment().unix()
         }
       ]
     });
